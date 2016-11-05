@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode>
+    <siteMapNode url="Inicio.aspx" title="Inicio"  description=""/>
+    
+    <siteMapNode url="" title="Empresas"  description="">     
+      <siteMapNode url="AgregarEmpresa.aspx" title="Agergar Empresa" />
+      <siteMapNode url="EditarEmpresa.aspx" title="Editar Empresa" />
+      <siteMapNode url="ListarEmpresas.aspx" title="Listar Empresas" />     
+    </siteMapNode>
+
+    <siteMapNode url="" title="Sucursales">
+
+      <siteMapNode url="AgregarSucursal.aspx" title="Agergar Sucursal" />
+      <siteMapNode url="EditarSucursal.aspx" title="Editar Sucursal" />
+      <siteMapNode url="ListarSucursal.aspx" title="Listar Sucursales" />
+      
+    </siteMapNode>
+
+    <siteMapNode url="" title="Personas">
+
+      <siteMapNode url="AgregarPersona.aspx" title="Agergar Persona" />
+      <siteMapNode url="EditarPersona.aspx" title="Editar Persona" />
+      <siteMapNode url="ListarPersona.aspx" title="Listar Personas" />
+
+    </siteMapNode>
+
+    <siteMapNode url="" title="Departamentos y Cargos">
+
+      <siteMapNode url="Departamentos.aspx" title="Departamentos" />
+      <siteMapNode url="Cargos.aspx" title="Cargos" />
+
+    </siteMapNode>
+
+    <siteMapNode url="" title="Personal">
+
+      <siteMapNode url="AgregarPersonal.aspx" title="Agergar Personal" />
+      <siteMapNode url="EditarPersonal.aspx" title="Editar Personal" />
+      <siteMapNode url="ListarPersonal.aspx" title="Listar Personal" />
+
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

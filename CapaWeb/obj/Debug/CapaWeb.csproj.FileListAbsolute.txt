@@ -1,0 +1,62 @@
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\roslyn\csc.exe
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\roslyn\System.Collections.Immutable.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\roslyn\System.Reflection.Metadata.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\roslyn\vbc.exe
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\roslyn\VBCSCompiler.exe
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\roslyn\VBCSCompiler.exe.config
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\CapaWeb.dll.config
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\CapaWeb.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\CapaWeb.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\obj\Debug\CapaWeb.csprojResolveAssemblyReference.cache
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\obj\Debug\CapaWeb.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\obj\Debug\CapaWeb.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\CapaDato.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\CapaInterface.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\CapaNegocio.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\EntityFramework.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\CapaDato.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\CapaInterface.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\CapaNegocio.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\EntityFramework.xml
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\EntityFramework.SqlServer.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaWeb\bin\EntityFramework.SqlServer.xml
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\roslyn\csc.exe
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\roslyn\System.Collections.Immutable.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\roslyn\System.Reflection.Metadata.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\roslyn\vbc.exe
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\roslyn\VBCSCompiler.exe
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\roslyn\VBCSCompiler.exe.config
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\CapaWeb.dll.config
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\CapaWeb.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\CapaWeb.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\CapaDato.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\CapaInterface.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\CapaNegocio.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\EntityFramework.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\EntityFramework.SqlServer.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\CapaDato.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\CapaInterface.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\CapaNegocio.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\EntityFramework.xml
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\EntityFramework.SqlServer.xml
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\obj\Debug\CapaWeb.csprojResolveAssemblyReference.cache
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\obj\Debug\CapaWeb.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\obj\Debug\CapaWeb.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\CapaExcepcion.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaWeb\bin\CapaExcepcion.pdb

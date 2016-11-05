@@ -1,0 +1,4 @@
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaEntidad\bin\Debug\CapaEntidad.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaEntidad\bin\Debug\CapaEntidad.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaEntidad\obj\Debug\CapaEntidad.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaEntidad\obj\Debug\CapaEntidad.pdb

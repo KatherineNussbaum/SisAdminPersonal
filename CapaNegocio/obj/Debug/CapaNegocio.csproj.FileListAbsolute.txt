@@ -1,0 +1,34 @@
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaNegocio\bin\Debug\CapaNegocio.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaNegocio\bin\Debug\CapaNegocio.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaNegocio\bin\Debug\CapaDato.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaNegocio\bin\Debug\CapaInterface.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaNegocio\bin\Debug\EntityFramework.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaNegocio\bin\Debug\EntityFramework.SqlServer.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaNegocio\bin\Debug\CapaDato.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaNegocio\bin\Debug\CapaInterface.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaNegocio\bin\Debug\EntityFramework.xml
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaNegocio\bin\Debug\EntityFramework.SqlServer.xml
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaNegocio\obj\Debug\CapaNegocio.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaNegocio\obj\Debug\CapaNegocio.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaNegocio\bin\Debug\CapaExcepcion.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaNegocio\bin\Debug\CapaExcepcion.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\bin\Debug\CapaNegocio.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\bin\Debug\CapaNegocio.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\bin\Debug\CapaDato.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\bin\Debug\CapaExcepcion.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\bin\Debug\CapaInterface.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\bin\Debug\EntityFramework.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\bin\Debug\EntityFramework.SqlServer.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\bin\Debug\CapaDato.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\bin\Debug\CapaExcepcion.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\bin\Debug\CapaInterface.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\bin\Debug\EntityFramework.xml
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\bin\Debug\EntityFramework.SqlServer.xml
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\obj\Debug\CapaNegocio.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\obj\Debug\CapaNegocio.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\bin\Debug\CapaEntidad.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaNegocio\bin\Debug\CapaEntidad.pdb

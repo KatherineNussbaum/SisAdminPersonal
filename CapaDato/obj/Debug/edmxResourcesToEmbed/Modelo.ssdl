@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SistemaPersonalModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cargo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cargo" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Comuna">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Comuna" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="RegionId" Type="int" />
+  </EntityType>
+  <EntityType Name="Departamento">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Departamento" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Empresa">
+    <Key>
+      <PropertyRef Name="Rut" />
+    </Key>
+    <Property Name="Rut" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="RazonSocial" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Pais">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Pais" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Persona">
+    <Key>
+      <PropertyRef Name="Rut" />
+    </Key>
+    <Property Name="Rut" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Nombres" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="ApPaterno" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="ApMaterno" Type="nvarchar" MaxLength="250" />
+    <Property Name="FechaNacimieto" Type="date" />
+    <Property Name="Sexo" Type="int" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="15" />
+    <Property Name="Email" Type="nvarchar" MaxLength="250" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="250" />
+    <Property Name="ComunaId" Type="int" />
+    <Property Name="RegionId" Type="int" />
+    <Property Name="PaisId" Type="int" />
+  </EntityType>
+  <EntityType Name="Personal">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PersonaRut" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="SucursalId" Type="int" />
+    <Property Name="CargoId" Type="int" />
+    <Property Name="DepartamentoId" Type="int" />
+  </EntityType>
+  <EntityType Name="Region">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Region" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="PaisId" Type="int" />
+  </EntityType>
+  <EntityType Name="Sucursal">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="EmpresaRut" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Tipo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="15" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="250" />
+    <Property Name="ComunaId" Type="int" />
+    <Property Name="RegionId" Type="int" />
+    <Property Name="PaisId" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK__Comuna__RegionId__30F848ED">
+    <End Role="Region" Type="Self.Region" Multiplicity="0..1" />
+    <End Role="Comuna" Type="Self.Comuna" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Region">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Comuna">
+        <PropertyRef Name="RegionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Persona__ComunaI__29572725">
+    <End Role="Comuna" Type="Self.Comuna" Multiplicity="0..1" />
+    <End Role="Persona" Type="Self.Persona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Comuna">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Persona">
+        <PropertyRef Name="ComunaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Persona__PaisId__2B3F6F97">
+    <End Role="Pais" Type="Self.Pais" Multiplicity="0..1" />
+    <End Role="Persona" Type="Self.Persona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pais">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Persona">
+        <PropertyRef Name="PaisId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Persona__RegionI__2A4B4B5E">
+    <End Role="Region" Type="Self.Region" Multiplicity="0..1" />
+    <End Role="Persona" Type="Self.Persona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Region">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Persona">
+        <PropertyRef Name="RegionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Personal__CargoI__2E1BDC42">
+    <End Role="Cargo" Type="Self.Cargo" Multiplicity="0..1" />
+    <End Role="Personal" Type="Self.Personal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cargo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Personal">
+        <PropertyRef Name="CargoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Personal__Depart__2F10007B">
+    <End Role="Departamento" Type="Self.Departamento" Multiplicity="0..1" />
+    <End Role="Personal" Type="Self.Personal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departamento">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Personal">
+        <PropertyRef Name="DepartamentoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Personal__Person__2C3393D0">
+    <End Role="Persona" Type="Self.Persona" Multiplicity="1" />
+    <End Role="Personal" Type="Self.Personal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Persona">
+        <PropertyRef Name="Rut" />
+      </Principal>
+      <Dependent Role="Personal">
+        <PropertyRef Name="PersonaRut" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Personal__Sucurs__2D27B809">
+    <End Role="Sucursal" Type="Self.Sucursal" Multiplicity="0..1" />
+    <End Role="Personal" Type="Self.Personal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sucursal">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Personal">
+        <PropertyRef Name="SucursalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Region__PaisId__300424B4">
+    <End Role="Pais" Type="Self.Pais" Multiplicity="0..1" />
+    <End Role="Region" Type="Self.Region" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pais">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Region">
+        <PropertyRef Name="PaisId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sucursal__Comuna__267ABA7A">
+    <End Role="Comuna" Type="Self.Comuna" Multiplicity="0..1" />
+    <End Role="Sucursal" Type="Self.Sucursal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Comuna">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sucursal">
+        <PropertyRef Name="ComunaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sucursal__Empres__25869641">
+    <End Role="Empresa" Type="Self.Empresa" Multiplicity="1" />
+    <End Role="Sucursal" Type="Self.Sucursal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empresa">
+        <PropertyRef Name="Rut" />
+      </Principal>
+      <Dependent Role="Sucursal">
+        <PropertyRef Name="EmpresaRut" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sucursal__PaisId__286302EC">
+    <End Role="Pais" Type="Self.Pais" Multiplicity="0..1" />
+    <End Role="Sucursal" Type="Self.Sucursal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pais">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sucursal">
+        <PropertyRef Name="PaisId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sucursal__Region__276EDEB3">
+    <End Role="Region" Type="Self.Region" Multiplicity="0..1" />
+    <End Role="Sucursal" Type="Self.Sucursal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Region">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sucursal">
+        <PropertyRef Name="RegionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SistemaPersonalModelStoreContainer">
+    <EntitySet Name="Cargo" EntityType="Self.Cargo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Comuna" EntityType="Self.Comuna" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Departamento" EntityType="Self.Departamento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Empresa" EntityType="Self.Empresa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pais" EntityType="Self.Pais" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Persona" EntityType="Self.Persona" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Personal" EntityType="Self.Personal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Region" EntityType="Self.Region" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sucursal" EntityType="Self.Sucursal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Comuna__RegionId__30F848ED" Association="Self.FK__Comuna__RegionId__30F848ED">
+      <End Role="Region" EntitySet="Region" />
+      <End Role="Comuna" EntitySet="Comuna" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Persona__ComunaI__29572725" Association="Self.FK__Persona__ComunaI__29572725">
+      <End Role="Comuna" EntitySet="Comuna" />
+      <End Role="Persona" EntitySet="Persona" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Persona__PaisId__2B3F6F97" Association="Self.FK__Persona__PaisId__2B3F6F97">
+      <End Role="Pais" EntitySet="Pais" />
+      <End Role="Persona" EntitySet="Persona" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Persona__RegionI__2A4B4B5E" Association="Self.FK__Persona__RegionI__2A4B4B5E">
+      <End Role="Region" EntitySet="Region" />
+      <End Role="Persona" EntitySet="Persona" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Personal__CargoI__2E1BDC42" Association="Self.FK__Personal__CargoI__2E1BDC42">
+      <End Role="Cargo" EntitySet="Cargo" />
+      <End Role="Personal" EntitySet="Personal" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Personal__Depart__2F10007B" Association="Self.FK__Personal__Depart__2F10007B">
+      <End Role="Departamento" EntitySet="Departamento" />
+      <End Role="Personal" EntitySet="Personal" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Personal__Person__2C3393D0" Association="Self.FK__Personal__Person__2C3393D0">
+      <End Role="Persona" EntitySet="Persona" />
+      <End Role="Personal" EntitySet="Personal" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Personal__Sucurs__2D27B809" Association="Self.FK__Personal__Sucurs__2D27B809">
+      <End Role="Sucursal" EntitySet="Sucursal" />
+      <End Role="Personal" EntitySet="Personal" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Region__PaisId__300424B4" Association="Self.FK__Region__PaisId__300424B4">
+      <End Role="Pais" EntitySet="Pais" />
+      <End Role="Region" EntitySet="Region" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sucursal__Comuna__267ABA7A" Association="Self.FK__Sucursal__Comuna__267ABA7A">
+      <End Role="Comuna" EntitySet="Comuna" />
+      <End Role="Sucursal" EntitySet="Sucursal" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sucursal__Empres__25869641" Association="Self.FK__Sucursal__Empres__25869641">
+      <End Role="Empresa" EntitySet="Empresa" />
+      <End Role="Sucursal" EntitySet="Sucursal" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sucursal__PaisId__286302EC" Association="Self.FK__Sucursal__PaisId__286302EC">
+      <End Role="Pais" EntitySet="Pais" />
+      <End Role="Sucursal" EntitySet="Sucursal" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sucursal__Region__276EDEB3" Association="Self.FK__Sucursal__Region__276EDEB3">
+      <End Role="Region" EntitySet="Region" />
+      <End Role="Sucursal" EntitySet="Sucursal" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

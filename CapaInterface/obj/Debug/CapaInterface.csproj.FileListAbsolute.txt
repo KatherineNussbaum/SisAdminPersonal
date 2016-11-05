@@ -1,0 +1,20 @@
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaInterface\bin\Debug\CapaInterface.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaInterface\bin\Debug\CapaInterface.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaInterface\bin\Debug\CapaDato.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaInterface\bin\Debug\EntityFramework.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaInterface\bin\Debug\CapaDato.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaInterface\bin\Debug\EntityFramework.xml
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaInterface\obj\Debug\CapaInterface.csprojResolveAssemblyReference.cache
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaInterface\obj\Debug\CapaInterface.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaInterface\obj\Debug\CapaInterface.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaInterface\bin\Debug\CapaInterface.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaInterface\bin\Debug\CapaInterface.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaInterface\bin\Debug\CapaDato.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaInterface\bin\Debug\EntityFramework.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaInterface\bin\Debug\CapaDato.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaInterface\bin\Debug\EntityFramework.xml
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaInterface\obj\Debug\CapaInterface.csprojResolveAssemblyReference.cache
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaInterface\obj\Debug\CapaInterface.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaInterface\obj\Debug\CapaInterface.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaInterface\bin\Debug\CapaEntidad.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaInterface\bin\Debug\CapaEntidad.pdb

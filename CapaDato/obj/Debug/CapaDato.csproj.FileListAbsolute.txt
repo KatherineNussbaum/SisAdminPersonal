@@ -1,0 +1,20 @@
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaDato\bin\Debug\CapaDato.dll.config
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaDato\bin\Debug\CapaDato.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaDato\bin\Debug\CapaDato.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaDato\bin\Debug\EntityFramework.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaDato\bin\Debug\EntityFramework.SqlServer.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaDato\bin\Debug\EntityFramework.xml
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaDato\bin\Debug\EntityFramework.SqlServer.xml
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaDato\obj\Debug\CapaDato.csprojResolveAssemblyReference.cache
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaDato\obj\Debug\CapaDato.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal\CapaDato\obj\Debug\CapaDato.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaDato\bin\Debug\CapaDato.dll.config
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaDato\bin\Debug\CapaDato.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaDato\bin\Debug\CapaDato.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaDato\bin\Debug\EntityFramework.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaDato\bin\Debug\EntityFramework.SqlServer.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaDato\bin\Debug\EntityFramework.xml
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaDato\bin\Debug\EntityFramework.SqlServer.xml
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaDato\obj\Debug\CapaDato.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaDato\obj\Debug\CapaDato.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaDato\obj\Debug\CapaDato.csprojResolveAssemblyReference.cache

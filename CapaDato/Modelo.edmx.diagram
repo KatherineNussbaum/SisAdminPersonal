@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5bd938c6d9ba48a8993128bd7eac5c6c" Name="Diagram1" ZoomLevel="125">
+        <EntityTypeShape EntityType="SistemaPersonalModel.Cargo" Width="1.5" PointX="8.125" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaPersonalModel.Comuna" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaPersonalModel.Departamento" Width="1.5" PointX="9.5" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaPersonalModel.Empresa" Width="1.5" PointX="2.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaPersonalModel.Pais" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaPersonalModel.Persona" Width="1.5" PointX="3.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaPersonalModel.Personal" Width="1.5" PointX="6.875" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaPersonalModel.Region" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaPersonalModel.Sucursal" Width="1.5" PointX="6" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaPersonalModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="SistemaPersonalModel.FK__Personal__CargoI__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaPersonalModel.FK__Comuna__RegionId__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaPersonalModel.FK__Persona__ComunaI__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaPersonalModel.FK__Sucursal__Comuna__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaPersonalModel.FK__Personal__Depart__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaPersonalModel.FK__Sucursal__Empres__25869641" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaPersonalModel.FK__Persona__PaisId__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaPersonalModel.FK__Region__PaisId__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaPersonalModel.FK__Sucursal__PaisId__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaPersonalModel.FK__Persona__RegionI__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaPersonalModel.FK__Personal__Person__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaPersonalModel.FK__Personal__Sucurs__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaPersonalModel.FK__Sucursal__Region__276EDEB3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
