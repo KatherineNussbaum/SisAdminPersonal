@@ -7,7 +7,7 @@
         <asp:Label ID="LblMensaje" runat="server" Text="Label" Visible="false"></asp:Label>
     </p>
     <p>
-        <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False" DataSourceID="ObjectDataSource1" EmptyDataText="No hay datos para mostrar.">
+        <asp:GridView ID="GridDepartamentos" runat="server" AllowPaging="True" AutoGenerateColumns="False" DataSourceID="ObjectDataSource1" EmptyDataText="No hay datos para mostrar.">
             <Columns>
                 <asp:BoundField DataField="Id" HeaderText="Id" SortExpression="Id" />
                 <asp:BoundField DataField="Departamento1" HeaderText="Departamento1" SortExpression="Departamento1" />

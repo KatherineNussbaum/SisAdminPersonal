@@ -11,7 +11,10 @@ namespace CapaWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                GridPersonas.EmptyDataText = "No hay personas registradas";   
+            }
         }
     }
 }

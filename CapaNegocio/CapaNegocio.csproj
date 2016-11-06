@@ -58,6 +58,7 @@
     <Compile Include="PersonaBO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegionBO.cs" />
+    <Compile Include="SucursalBO.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CapaDato\CapaDato.csproj">
