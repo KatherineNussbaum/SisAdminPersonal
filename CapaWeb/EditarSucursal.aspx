@@ -29,12 +29,15 @@
         <asp:Label ID="LblDireccion" runat="server" Text="Dirección"></asp:Label>
         <asp:TextBox ID="TxtDireccion" runat="server"></asp:TextBox>
         <br />
-        <asp:Label ID="LblComunaActual" runat="server" Text="Label"></asp:Label>
+        <asp:Panel ID="PnlUbicacionActual" runat="server">
+            <asp:Label ID="LblComunaActual" runat="server" Text="Label"></asp:Label>
         <br />
         <asp:Label ID="LblRegionActual" runat="server" Text="Label"></asp:Label>
         <br />
         <asp:Label ID="LblPaisActual" runat="server" Text="Label"></asp:Label>
         <br />
+        </asp:Panel>
+        
         <asp:Button ID="BtnCambiarRegion" runat="server" Text="Cambiar Ubicación Actual" OnClick="BtnCambiarRegion_Click" />
         <br />
         <asp:Panel ID="PnlEditarLocalidad" runat="server" Visible="false">
@@ -47,8 +50,8 @@
         </asp:DropDownList>
         <br />
         <asp:Label ID="LblComuna" runat="server" Text="Comuna"></asp:Label>
-        <asp:DropDownList ID="DdlComuna" runat="server" DataSourceID="OdsComuna" DataTextField="Comuna1" DataValueField="Id" AutoPostBack="True">
-        </asp:DropDownList>
+             &nbsp;<asp:DropDownList ID="DdlComuna" runat="server" AutoPostBack="True" DataSourceID="ObjectDataSource1" DataTextField="Comuna1" DataValueField="Id">
+             </asp:DropDownList>
         <br />
         </asp:Panel>
         <br />
@@ -61,11 +64,12 @@
                 <asp:ControlParameter ControlID="DdlPais" Name="paisId" PropertyName="SelectedValue" Type="Int32" />
             </SelectParameters>
         </asp:ObjectDataSource>
-        <asp:ObjectDataSource ID="OdsComuna" runat="server" SelectMethod="ListaComunaRegion" TypeName="CapaNegocio.ComunaBO">
+        <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="ListaComunaRegion" TypeName="CapaNegocio.ComunaBO">
             <SelectParameters>
                 <asp:ControlParameter ControlID="DdlRegion" Name="regionId" PropertyName="SelectedValue" Type="Int32" />
             </SelectParameters>
         </asp:ObjectDataSource>
+        <br />
         <asp:ValidationSummary ID="ValSum" runat="server" />
         <br />
     </asp:Panel>

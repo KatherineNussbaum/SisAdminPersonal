@@ -62,7 +62,7 @@ namespace CapaWeb
 
                     if(null != sucursal)
                     {
-                        LblPaisActual.Visible = LblRegionActual.Visible = LblComunaActual.Visible = true;
+                        PnlUbicacionActual.Visible = true;
                         PnlEditarLocalidad.Visible = false;
                         LblMensaje.Visible = false;
                         PnlEditar.Visible = true;
@@ -157,25 +157,22 @@ namespace CapaWeb
                 bool result;
                 if(PnlEditarLocalidad.Visible == true)
                 {
-                    int pais;
-                    int region;
-                    int comuna;
+                    int pais = 0;
+                    int region = 0;
+                    int comuna = 0;
                     Int32.TryParse(DdlPais.SelectedItem.Value, out pais);
                     Int32.TryParse(DdlRegion.SelectedItem.Value, out region);
                     Int32.TryParse(DdlComuna.SelectedItem.Value, out comuna);
-
-                    result = sucursalSession.ModificarSucursal(id, nombre, empresaRut, tipo, direccion, pais, region, comuna, telefono);
+                    result = sucursalSession.ModificarSucursal(id, nombre, empresaRut, tipo, direccion, comuna, region, pais, telefono);
                 }
                 else
                 {
                     result = sucursalSession.ModificarSucursal(id, nombre, empresaRut, tipo, direccion, telefono);
                 }
-
                 if (result)
                 {
                     MostrarMensaje("La sucursal fue modificada con éxito.");
                     LimpiarForm();
-
                 }
                 else
                 {
@@ -186,9 +183,7 @@ namespace CapaWeb
 
         protected void BtnCambiarRegion_Click(object sender, EventArgs e)
         {
-            LblPaisActual.Visible = false;
-            LblRegionActual.Visible = false;
-            LblComunaActual.Visible = false;
+            PnlUbicacionActual.Visible = false;
             PnlEditarLocalidad.Visible = true;
         }
     }

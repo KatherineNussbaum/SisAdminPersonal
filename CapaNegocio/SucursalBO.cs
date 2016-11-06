@@ -93,21 +93,23 @@ namespace CapaNegocio
             {
                 throw new SucursalException("Error: falta rut de empresa");
             }
-            if (VerificarSucursal(id))
+            if (!this.VerificarSucursal(id))
             {
-                Sucursal sucursal = this.BuscarSucursal(id);
-                sucursal.Nombre = nombre;
-                sucursal.EmpresaRut = empresaRut;
-                sucursal.Tipo = tipo;
-                sucursal.Direccion = direccion;
-                sucursal.ComunaId = comuna;
-                sucursal.RegionId = region;
-                sucursal.PaisId = pais;
-                sucursal.Telefono = telefono;
-                return this._objContext.SaveChanges() > 0;
+                throw new SucursalException("La sucursal no se encuebtra registrada");
             }
-            return false;
-        }
+           
+            Sucursal sucursal = this.BuscarSucursal(id);
+            sucursal.Nombre = nombre;
+            sucursal.EmpresaRut = empresaRut;
+            sucursal.Tipo = tipo;
+            sucursal.Direccion = direccion;
+            sucursal.PaisId = pais;
+            sucursal.RegionId = region;
+            sucursal.ComunaId = comuna;
+            sucursal.Telefono = telefono;
+            return this._objContext.SaveChanges() > 0;
+      }
+      
 
         public bool ModificarSucursal(int id, string nombre, string empresaRut, string tipo,
             string direccion, string telefono)

@@ -15,6 +15,7 @@ namespace CapaWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            GridCargos.DataSourceID = "ObjectDataSource1";
             if (!IsPostBack)
             {
                 GridCargos.EmptyDataText = "No hay cargos registrados";

@@ -18,7 +18,10 @@ namespace CapaWeb
             if (!IsPostBack)
             {
                 GridDepartamentos.EmptyDataText = "No hay departamentos registrados";
+
             }
+            GridDepartamentos.DataSourceID = "ObjectDataSource1";
+
         }
 
         protected void btnAbrirAgregar_Click(object sender, EventArgs e)

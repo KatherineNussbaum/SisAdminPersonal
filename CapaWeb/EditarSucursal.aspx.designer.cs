@@ -175,6 +175,15 @@ namespace CapaWeb {
         protected global::System.Web.UI.WebControls.TextBox TxtDireccion;
         
         /// <summary>
+        /// Control PnlUbicacionActual.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel PnlUbicacionActual;
+        
+        /// <summary>
         /// Control LblComunaActual.
         /// </summary>
         /// <remarks>
@@ -319,13 +328,13 @@ namespace CapaWeb {
         protected global::System.Web.UI.WebControls.ObjectDataSource OdsRegion;
         
         /// <summary>
-        /// Control OdsComuna.
+        /// Control ObjectDataSource1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ObjectDataSource OdsComuna;
+        protected global::System.Web.UI.WebControls.ObjectDataSource ObjectDataSource1;
         
         /// <summary>
         /// Control ValSum.
