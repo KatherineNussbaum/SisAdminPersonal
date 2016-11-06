@@ -13,7 +13,7 @@ namespace CapaInterface
         bool AgregarSucursal(string nombre, string empresaRut, string tipo, string direccion, int comuna, int region, int pais, string telefono);
         bool EliminarSucursal(int id);
         bool ModificarSucursal(int id, string nombre, string empresaRut, string tipo, string direccion, int comuna, int region, int pais, string telefono);
-        bool ModificarSucursal(int id, string nomber, string empresaRut, string tipo, string direccion, string telefono);
+        bool ModificarSucursal(int id, string nombre, string empresaRut, string tipo, string direccion, string telefono);
         Sucursal BuscarSucursal(int id);
         Sucursal BuscarSucursal(string nombre);
         bool VerificarSucursal(int id);
