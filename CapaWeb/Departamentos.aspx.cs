@@ -15,7 +15,10 @@ namespace CapaWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                GridDepartamentos.EmptyDataText = "No hay departamentos registrados";
+            }
         }
 
         protected void btnAbrirAgregar_Click(object sender, EventArgs e)

@@ -10,7 +10,7 @@
 namespace CapaWeb {
     
     
-    public partial class Cargos {
+    public partial class AgregarSucursal {
         
         /// <summary>
         /// Control LblMensaje.
@@ -22,42 +22,6 @@ namespace CapaWeb {
         protected global::System.Web.UI.WebControls.Label LblMensaje;
         
         /// <summary>
-        /// Control GridCargos.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridCargos;
-        
-        /// <summary>
-        /// Control ObjectDataSource1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ObjectDataSource ObjectDataSource1;
-        
-        /// <summary>
-        /// Control btnAbrirAgregar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAbrirAgregar;
-        
-        /// <summary>
-        /// Control BtnAbrirEditar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnAbrirEditar;
-        
-        /// <summary>
         /// Control PnlAgregar.
         /// </summary>
         /// <remarks>
@@ -67,22 +31,22 @@ namespace CapaWeb {
         protected global::System.Web.UI.WebControls.Panel PnlAgregar;
         
         /// <summary>
-        /// Control LblNombreCargoAgregar.
+        /// Control LblNombre.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblNombreCargoAgregar;
+        protected global::System.Web.UI.WebControls.Label LblNombre;
         
         /// <summary>
-        /// Control TxtNombreAgregar.
+        /// Control TxtNombre.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtNombreAgregar;
+        protected global::System.Web.UI.WebControls.TextBox TxtNombre;
         
         /// <summary>
         /// Control RequiredFieldValidator1.
@@ -94,111 +58,192 @@ namespace CapaWeb {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
         
         /// <summary>
-        /// Control BtnGuardar.
+        /// Control LblEmpresa.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnGuardar;
+        protected global::System.Web.UI.WebControls.Label LblEmpresa;
         
         /// <summary>
-        /// Control PnlEditar.
+        /// Control DdlEmpresa.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel PnlEditar;
+        protected global::System.Web.UI.WebControls.DropDownList DdlEmpresa;
         
         /// <summary>
-        /// Control LblNombreBuscar.
+        /// Control RequiredFieldValidator2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblNombreBuscar;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
         
         /// <summary>
-        /// Control TxtNombreBuscar.
+        /// Control LblTipo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtNombreBuscar;
+        protected global::System.Web.UI.WebControls.Label LblTipo;
         
         /// <summary>
-        /// Control BtnBuscar.
+        /// Control TxtTipo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnBuscar;
+        protected global::System.Web.UI.WebControls.TextBox TxtTipo;
         
         /// <summary>
-        /// Control PnlEditarEliminar.
+        /// Control LblTelefono.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel PnlEditarEliminar;
+        protected global::System.Web.UI.WebControls.Label LblTelefono;
         
         /// <summary>
-        /// Control NombreNuevo.
+        /// Control TxtTelefono.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label NombreNuevo;
+        protected global::System.Web.UI.WebControls.TextBox TxtTelefono;
         
         /// <summary>
-        /// Control TxtNombreCargoNuevo.
+        /// Control LblDireccion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtNombreCargoNuevo;
+        protected global::System.Web.UI.WebControls.Label LblDireccion;
         
         /// <summary>
-        /// Control TxtId.
+        /// Control TxtDireccion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtId;
+        protected global::System.Web.UI.WebControls.TextBox TxtDireccion;
         
         /// <summary>
-        /// Control BtnEliminar.
+        /// Control LblPais.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnEliminar;
+        protected global::System.Web.UI.WebControls.Label LblPais;
         
         /// <summary>
-        /// Control BtnEditar.
+        /// Control DdlPais.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnEditar;
+        protected global::System.Web.UI.WebControls.DropDownList DdlPais;
         
         /// <summary>
-        /// Control ValSum.
+        /// Control LblRegion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ValidationSummary ValSum;
+        protected global::System.Web.UI.WebControls.Label LblRegion;
+        
+        /// <summary>
+        /// Control DdlRegion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DdlRegion;
+        
+        /// <summary>
+        /// Control LblComuna.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblComuna;
+        
+        /// <summary>
+        /// Control DdlComuna.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DdlComuna;
+        
+        /// <summary>
+        /// Control BtnGuradar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnGuradar;
+        
+        /// <summary>
+        /// Control OdsPais.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ObjectDataSource OdsPais;
+        
+        /// <summary>
+        /// Control OdsRegion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ObjectDataSource OdsRegion;
+        
+        /// <summary>
+        /// Control OdsComuna.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ObjectDataSource OdsComuna;
+        
+        /// <summary>
+        /// Control OdsEmpresa.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ObjectDataSource OdsEmpresa;
+        
+        /// <summary>
+        /// Control ValidationSummary1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
     }
 }

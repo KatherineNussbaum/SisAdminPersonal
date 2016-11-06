@@ -7,7 +7,7 @@
         <asp:ObjectDataSource ID="OdsPersonas" runat="server" SelectMethod="ListarPersona" TypeName="CapaNegocio.PersonaBO"></asp:ObjectDataSource>
 
         <br />
-        <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False" DataSourceID="OdsPersonas">
+        <asp:GridView ID="GridPersonas" runat="server" AllowPaging="True" AutoGenerateColumns="False" DataSourceID="OdsPersonas">
             <Columns>
                 <asp:BoundField DataField="Rut" HeaderText="Rut" SortExpression="Rut" />
                 <asp:BoundField DataField="Nombres" HeaderText="Nombres" SortExpression="Nombres" />

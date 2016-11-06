@@ -7,3 +7,8 @@ X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaExcepci
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaExcepcion\bin\Debug\CapaExcepcion.pdb
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaExcepcion\obj\Debug\CapaExcepcion.dll
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\CapaExcepcion\obj\Debug\CapaExcepcion.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaExcepcion\bin\Debug\CapaExcepcion.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaExcepcion\bin\Debug\CapaExcepcion.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaExcepcion\obj\Debug\CapaExcepcion.csprojResolveAssemblyReference.cache
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaExcepcion\obj\Debug\CapaExcepcion.dll
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaExcepcion\obj\Debug\CapaExcepcion.pdb

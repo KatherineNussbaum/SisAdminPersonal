@@ -5,7 +5,7 @@
     <h2>Empresas</h2>
     <asp:Panel ID="PnlEmpresas" runat="server">
         <asp:ObjectDataSource ID="OdsEmpresas" runat="server" SelectMethod="ListarEmpresa" TypeName="CapaNegocio.EmpresaBO"></asp:ObjectDataSource>
-        <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False" DataSourceID="OdsEmpresas">
+        <asp:GridView ID="GridEmpresas" runat="server" AllowPaging="True" AutoGenerateColumns="False" DataSourceID="OdsEmpresas">
             <Columns>
                 <asp:BoundField DataField="Rut" HeaderText="Rut" SortExpression="Rut" />
                 <asp:BoundField DataField="Nombre" HeaderText="Nombre" SortExpression="Nombre" />
