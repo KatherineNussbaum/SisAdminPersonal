@@ -18,6 +18,7 @@ namespace CapaInterface
         Sucursal BuscarSucursal(string nombre);
         bool VerificarSucursal(int id);
         bool VerificarSucursal(string nombre);
+        bool VerificarSucursalRut(string rut);
         IList<Sucursal> ListarSucursal();
     }
 }

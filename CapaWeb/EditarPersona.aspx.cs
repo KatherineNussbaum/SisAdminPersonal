@@ -213,8 +213,18 @@ namespace CapaWeb
                     #region Eliminar
                     bool result = personaSession.EliminarPersona(rut);
                     #endregion
+                    if(Session["PersonalBO"] == null)
+                    {
+                        Session["PersonalBO"] = new PersonalBO();
+                    }
+                    IPersonalBO sucursalSession = Session["PersonalBO"] as PersonalBO;
+
+                    if (sucursalSession.VerificarSucursalRut(rut))
+                    {
+                        MostrarMensaje("Esta persona tiene datos de personal asignado. Mientras que sea así no se podrá eliminar");
+                    }
                     #region Mensaje
-                    if (result)
+                        if (result)
                     {
                         MostrarMensaje("La persona fue eliminada con éxito");
                         LimpiarFormulario();

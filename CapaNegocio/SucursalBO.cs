@@ -148,6 +148,11 @@ namespace CapaNegocio
         {
             return this._objContext.Sucursal.Any(s => s.Nombre == nombre);
         }
+
+        public bool VerificarSucursalRut(string rut)
+        {
+            return this._objContext.Sucursal.Any(s => s.EmpresaRut == rut);
+        }
         #endregion
     }
 }
