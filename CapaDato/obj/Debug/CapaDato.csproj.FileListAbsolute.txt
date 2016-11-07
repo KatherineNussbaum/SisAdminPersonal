@@ -27,3 +27,13 @@ X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPer
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaDato\bin\Debug\EntityFramework.SqlServer.xml
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaDato\obj\Debug\CapaDato.dll
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaDato\obj\Debug\CapaDato.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaDato\bin\Debug\CapaDato.dll.config
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaDato\bin\Debug\CapaDato.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaDato\bin\Debug\CapaDato.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaDato\bin\Debug\EntityFramework.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaDato\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaDato\bin\Debug\EntityFramework.xml
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaDato\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaDato\obj\Debug\CapaDato.csprojResolveAssemblyReference.cache
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaDato\obj\Debug\CapaDato.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaDato\obj\Debug\CapaDato.pdb

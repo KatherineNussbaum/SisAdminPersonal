@@ -29,3 +29,14 @@ X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPer
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaInterface\obj\Debug\CapaInterface.csprojResolveAssemblyReference.cache
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaInterface\obj\Debug\CapaInterface.dll
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaInterface\obj\Debug\CapaInterface.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaInterface\bin\Debug\CapaInterface.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaInterface\bin\Debug\CapaInterface.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaInterface\bin\Debug\CapaDato.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaInterface\bin\Debug\CapaEntidad.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaInterface\bin\Debug\EntityFramework.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaInterface\bin\Debug\CapaDato.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaInterface\bin\Debug\CapaEntidad.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaInterface\bin\Debug\EntityFramework.xml
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaInterface\obj\Debug\CapaInterface.csprojResolveAssemblyReference.cache
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaInterface\obj\Debug\CapaInterface.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaInterface\obj\Debug\CapaInterface.pdb

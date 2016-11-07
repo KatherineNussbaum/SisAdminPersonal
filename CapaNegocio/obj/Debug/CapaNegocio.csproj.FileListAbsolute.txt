@@ -50,3 +50,21 @@ X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPer
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaNegocio\obj\Debug\CapaNegocio.dll
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\bin\Debug\CapaNegocio.dll.config
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\bin\Debug\CapaDato.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\bin\Debug\CapaExcepcion.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\bin\Debug\CapaInterface.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\bin\Debug\CapaDato.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\bin\Debug\CapaExcepcion.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\bin\Debug\CapaInterface.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaNegocio\obj\Debug\CapaNegocio.pdb

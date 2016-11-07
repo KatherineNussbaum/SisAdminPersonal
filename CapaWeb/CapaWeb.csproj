@@ -76,6 +76,7 @@
   <ItemGroup>
     <Content Include="AgregarEmpresa.aspx" />
     <Content Include="AgregarPersona.aspx" />
+    <Content Include="AgregarPersonal.aspx" />
     <Content Include="AgregarSucursal.aspx" />
     <Content Include="Cargos.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -133,6 +134,13 @@
     </Compile>
     <Compile Include="AgregarPersona.aspx.designer.cs">
       <DependentUpon>AgregarPersona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarPersonal.aspx.cs">
+      <DependentUpon>AgregarPersonal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarPersonal.aspx.designer.cs">
+      <DependentUpon>AgregarPersonal.aspx</DependentUpon>
     </Compile>
     <Compile Include="AgregarSucursal.aspx.cs">
       <DependentUpon>AgregarSucursal.aspx</DependentUpon>

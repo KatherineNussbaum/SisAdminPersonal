@@ -92,3 +92,35 @@ X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPer
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaWeb\obj\Debug\CapaWeb.csprojResolveAssemblyReference.cache
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaWeb\obj\Debug\CapaWeb.dll
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaWeb\obj\Debug\CapaWeb.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\roslyn\csc.exe
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\roslyn\vbc.exe
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\CapaWeb.dll.config
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\CapaWeb.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\CapaWeb.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\CapaDato.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\CapaExcepcion.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\CapaInterface.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\CapaNegocio.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\EntityFramework.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\CapaDato.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\CapaExcepcion.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\CapaInterface.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\CapaNegocio.pdb
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\EntityFramework.xml
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\obj\Debug\CapaWeb.csprojResolveAssemblyReference.cache
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\obj\Debug\CapaWeb.dll
+C:\Users\rvergara\Documents\GitHub\SisAdminPersonal\CapaWeb\obj\Debug\CapaWeb.pdb
