@@ -101,22 +101,33 @@ namespace CapaWeb
                     #region Variables
                     string rut = TxtRut.Text;
                     #endregion
-
-                    #region Eliminar
-                    bool result = empresaSession.EliminarEmpresa(rut);
-                    #endregion
-                    #region Mensaje
-                    if (result)
+                    if(Session["SucursalBO"] == null)
                     {
-                        MostrarMensaje("La empresa fue eliminada con éxito.");
-                        LimpiarPnlEditar();
+                        Session["SucursalBO"] = new SucursalBO();
+                    }
+                    ISucursalBO sucursalSession = Session["SucursalBO"] as SucursalBO;
+                    if (sucursalSession.VerificarSucursalRut(rut))
+                    {
+                        MostrarMensaje("La empresa tiene sucursales asignada. No puede eliminar mientras que existan esta sucursales.");
                     }
                     else
                     {
-                        MostrarMensaje("Ocurrió un error. La empresa no se eliminó.");
-                        LimpiarPnlEditar();
+                        #region Eliminar
+                        bool result = empresaSession.EliminarEmpresa(rut);
+                        #endregion
+                        #region Mensaje
+                        if (result)
+                        {
+                            MostrarMensaje("La empresa fue eliminada con éxito.");
+                            LimpiarPnlEditar();
+                        }
+                        else
+                        {
+                            MostrarMensaje("Ocurrió un error. La empresa no se eliminó.");
+                            LimpiarPnlEditar();
+                        }
+                        #endregion
                     }
-                    #endregion
                 }
             }
         } 
