@@ -76,6 +76,7 @@
   <ItemGroup>
     <Content Include="AgregarEmpresa.aspx" />
     <Content Include="AgregarPersona.aspx" />
+    <Content Include="AgregarPersonal.aspx" />
     <Content Include="AgregarSucursal.aspx" />
     <Content Include="Cargos.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -85,11 +86,13 @@
     <Content Include="Departamentos.aspx" />
     <Content Include="EditarEmpresa.aspx" />
     <Content Include="EditarPersona.aspx" />
+    <Content Include="EditarPersonal.aspx" />
     <Content Include="EditarSucursal.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="index.aspx" />
     <Content Include="ListarEmpresas.aspx" />
     <Content Include="ListarPersona.aspx" />
+    <Content Include="ListarPersonal.aspx" />
     <Content Include="ListarSucursales.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -134,6 +137,13 @@
     <Compile Include="AgregarPersona.aspx.designer.cs">
       <DependentUpon>AgregarPersona.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AgregarPersonal.aspx.cs">
+      <DependentUpon>AgregarPersonal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarPersonal.aspx.designer.cs">
+      <DependentUpon>AgregarPersonal.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AgregarSucursal.aspx.cs">
       <DependentUpon>AgregarSucursal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -169,6 +179,13 @@
     <Compile Include="EditarPersona.aspx.designer.cs">
       <DependentUpon>EditarPersona.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EditarPersonal.aspx.cs">
+      <DependentUpon>EditarPersonal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarPersonal.aspx.designer.cs">
+      <DependentUpon>EditarPersonal.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EditarSucursal.aspx.cs">
       <DependentUpon>EditarSucursal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -199,6 +216,13 @@
     </Compile>
     <Compile Include="ListarPersona.aspx.designer.cs">
       <DependentUpon>ListarPersona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListarPersonal.aspx.cs">
+      <DependentUpon>ListarPersonal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListarPersonal.aspx.designer.cs">
+      <DependentUpon>ListarPersonal.aspx</DependentUpon>
     </Compile>
     <Compile Include="ListarSucursales.aspx.cs">
       <DependentUpon>ListarSucursales.aspx</DependentUpon>

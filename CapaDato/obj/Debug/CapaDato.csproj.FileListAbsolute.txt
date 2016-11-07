@@ -27,3 +27,4 @@ X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPer
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaDato\bin\Debug\EntityFramework.SqlServer.xml
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaDato\obj\Debug\CapaDato.dll
 X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaDato\obj\Debug\CapaDato.pdb
+X:\SantoTomas\Semestre 4\puntoNet\SistemaPersonal RVergara KNussbaum\SisAdminPersonal\CapaDato\obj\Debug\CapaDato.csprojResolveAssemblyReference.cache
