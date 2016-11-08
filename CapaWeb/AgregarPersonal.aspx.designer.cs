@@ -40,15 +40,6 @@ namespace CapaWeb {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RfvRut;
         
         /// <summary>
-        /// Control ODSRUTPersona.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ObjectDataSource ODSRUTPersona;
-        
-        /// <summary>
         /// Control LblSucursal.
         /// </summary>
         /// <remarks>
@@ -74,15 +65,6 @@ namespace CapaWeb {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RfvSucursal;
-        
-        /// <summary>
-        /// Control OdsSucursal.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ObjectDataSource OdsSucursal;
         
         /// <summary>
         /// Control LblDepartamento.
@@ -112,15 +94,6 @@ namespace CapaWeb {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RfvDepartamento;
         
         /// <summary>
-        /// Control OdsDepartamento.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ObjectDataSource OdsDepartamento;
-        
-        /// <summary>
         /// Control LblCargo.
         /// </summary>
         /// <remarks>
@@ -148,15 +121,6 @@ namespace CapaWeb {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RfvCargo;
         
         /// <summary>
-        /// Control OdsCargo.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ObjectDataSource OdsCargo;
-        
-        /// <summary>
         /// Control BtnGuardar.
         /// </summary>
         /// <remarks>
@@ -164,6 +128,42 @@ namespace CapaWeb {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnGuardar;
+        
+        /// <summary>
+        /// Control ODSRUTPersona.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ObjectDataSource ODSRUTPersona;
+        
+        /// <summary>
+        /// Control OdsSucursal.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ObjectDataSource OdsSucursal;
+        
+        /// <summary>
+        /// Control OdsDepartamento.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ObjectDataSource OdsDepartamento;
+        
+        /// <summary>
+        /// Control OdsCargo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ObjectDataSource OdsCargo;
         
         /// <summary>
         /// Control VsAgregarPersona.

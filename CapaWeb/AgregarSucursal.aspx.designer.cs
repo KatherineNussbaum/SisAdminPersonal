@@ -22,15 +22,6 @@ namespace CapaWeb {
         protected global::System.Web.UI.WebControls.Label LblMensaje;
         
         /// <summary>
-        /// Control PnlAgregar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel PnlAgregar;
-        
-        /// <summary>
         /// Control LblNombre.
         /// </summary>
         /// <remarks>
@@ -200,6 +191,15 @@ namespace CapaWeb {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnGuradar;
+        
+        /// <summary>
+        /// Control PnlAgregar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel PnlAgregar;
         
         /// <summary>
         /// Control OdsPais.

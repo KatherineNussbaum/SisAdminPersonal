@@ -34,7 +34,7 @@
         <tr>
             <td class="auto-style1">Seleccionar Personal:</td>
             <td class="auto-style2">
-                <asp:DropDownList ID="DdlPersonal" runat="server" DataSourceID="OdsPersonal" DataTextField="NombreComplet" DataValueField="Id">
+                <asp:DropDownList ID="DdlPersonal" runat="server" DataSourceID="OdsPersonal" DataTextField="NombreComplet" DataValueField="Id" Width="200px">
                 </asp:DropDownList>
             </td>
             <td>
@@ -43,50 +43,51 @@
         </tr>
         </table>
     <asp:ObjectDataSource ID="OdsPersonal" runat="server" SelectMethod="ListarPersonal" TypeName="CapaNegocio.PersonalCompletoBO"></asp:ObjectDataSource>
-    <br />
     <asp:Panel ID="PnlDatosActuales" runat="server" Visible="false">
         <asp:TextBox ID="TxtId" Visible="false" runat="server" Width="36px"></asp:TextBox>
         <table style="width: 100%;">
             <tr>
                 <td class="auto-style4">Rut Persona:</td>
-                <td class="auto-style10">
+                <td class="auto-style10" colspan="2">
                     <asp:Label ID="LblRut" runat="server" Text="Label"></asp:Label>
                 </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style4">Sucursal:</td>
-                <td class="auto-style10">
+                <td class="auto-style10" colspan="2">
                     <asp:Label ID="LblSucursal" runat="server" Text="Label"></asp:Label>
-                    <asp:DropDownList ID="DdlSucursal" Visible="false" runat="server" DataSourceID="OdsSucursal" DataTextField="Nombre" DataValueField="Id">
+                    <asp:DropDownList ID="DdlSucursal" Visible="false" runat="server" DataSourceID="OdsSucursal" DataTextField="Nombre" DataValueField="Id" Width="200px">
                     </asp:DropDownList>
                 </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style4">Departamento:</td>
-                <td class="auto-style10">
+                <td class="auto-style10" colspan="2">
                     <asp:Label ID="LblDepartamento" runat="server" Text="Label"></asp:Label>
-                    <asp:DropDownList ID="DdlDepartamento" Visible="false" runat="server" DataSourceID="OdsDepartamento" DataTextField="Departamento1" DataValueField="Id">
+                    <asp:DropDownList ID="DdlDepartamento" Visible="false" runat="server" DataSourceID="OdsDepartamento" DataTextField="Departamento1" DataValueField="Id" Width="200px">
                     </asp:DropDownList>
                 </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style6">Cargo:</td>
-                <td class="auto-style7">
+                <td class="auto-style7" colspan="2">
                     <asp:Label ID="LblCargo" runat="server" Text="Label"></asp:Label>
-                    <asp:DropDownList ID="DdlCargo" Visible="false" runat="server" DataSourceID="OdsCargo" DataTextField="Cargo1" DataValueField="Id">
+                    <asp:DropDownList ID="DdlCargo" Visible="false" runat="server" DataSourceID="OdsCargo" DataTextField="Cargo1" DataValueField="Id" Width="200px">
                     </asp:DropDownList>
                 </td>
                 <td class="auto-style8"></td>
             </tr>
             <tr>
                 <td class="auto-style4">
-                    <asp:Button ID="BtnEliminar" runat="server" Text="Eliminar" OnClick="BtnEliminar_Click" />
+                    &nbsp;</td>
+                <td class="auto-style2">
+                    <asp:Button ID="BtnEliminar" runat="server" OnClick="BtnEliminar_Click" Text="Eliminar" Width="95px" />
                 </td>
                 <td class="auto-style10">
-                    <asp:Button ID="BtnEditar" runat="server" Text="Editar" OnClick="BtnEditar_Click" />
+                    <asp:Button ID="BtnEditar" runat="server" OnClick="BtnEditar_Click" Text="Editar" Width="89px" />
                 </td>
                 <td>&nbsp;</td>
             </tr>

@@ -49,15 +49,6 @@ namespace CapaWeb {
         protected global::System.Web.UI.WebControls.Button BtnBuscar;
         
         /// <summary>
-        /// Control PnlEditar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel PnlEditar;
-        
-        /// <summary>
         /// Control TxtId.
         /// </summary>
         /// <remarks>
@@ -173,6 +164,15 @@ namespace CapaWeb {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtDireccion;
+        
+        /// <summary>
+        /// Control PnlEditar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel PnlEditar;
         
         /// <summary>
         /// Control PnlUbicacionActual.
