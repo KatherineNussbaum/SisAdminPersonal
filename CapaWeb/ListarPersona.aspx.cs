@@ -13,8 +13,9 @@ namespace CapaWeb
         {
             if (!IsPostBack)
             {
-                GridPersonas.EmptyDataText = "No hay personas registradas";   
+                GridPersona.EmptyDataText = "No hay personas registradas";
             }
+            
         }
     }
 }

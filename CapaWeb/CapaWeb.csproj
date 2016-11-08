@@ -249,6 +249,10 @@
       <Project>{7605db5f-894f-4f7c-8697-9455cf6a29ee}</Project>
       <Name>CapaDato</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CapaEntidad\CapaEntidad.csproj">
+      <Project>{b37d1e89-748b-4617-b8ed-28a655038fb8}</Project>
+      <Name>CapaEntidad</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CapaExcepcion\CapaExcepcion.csproj">
       <Project>{c72a6f06-e05e-4570-963b-caa501d7093f}</Project>
       <Name>CapaExcepcion</Name>

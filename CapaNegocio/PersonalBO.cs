@@ -82,7 +82,7 @@ namespace CapaNegocio
         }
 
 
-        public bool ModificarPersonal(int id, string personaRut, int sucursalId, int cargoId, int departamentoId)
+        public bool ModificarPersonal(int id, string personaRut, int sucursalId, int departamentoId, int cargoId)
         {
             if (id <= 0)
             {

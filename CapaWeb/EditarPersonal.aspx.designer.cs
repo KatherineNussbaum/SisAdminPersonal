@@ -22,13 +22,22 @@ namespace CapaWeb {
         protected global::System.Web.UI.WebControls.Label LblMensaje;
         
         /// <summary>
-        /// Control GridView1.
+        /// Control DdlPersonal.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.DropDownList DdlPersonal;
+        
+        /// <summary>
+        /// Control BtnBuscar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnBuscar;
         
         /// <summary>
         /// Control OdsPersonal.
@@ -49,94 +58,40 @@ namespace CapaWeb {
         protected global::System.Web.UI.WebControls.Panel PnlDatosActuales;
         
         /// <summary>
-        /// Control LblId.
+        /// Control TxtId.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblId;
+        protected global::System.Web.UI.WebControls.TextBox TxtId;
         
         /// <summary>
-        /// Control LblRutPersonaA.
+        /// Control LblRut.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblRutPersonaA;
+        protected global::System.Web.UI.WebControls.Label LblRut;
         
         /// <summary>
-        /// Control LblSucursalA.
+        /// Control LblSucursal.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblSucursalA;
+        protected global::System.Web.UI.WebControls.Label LblSucursal;
         
         /// <summary>
-        /// Control LblDepartamentoA.
+        /// Control DdlSucursal.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblDepartamentoA;
-        
-        /// <summary>
-        /// Control LblCargoA.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblCargoA;
-        
-        /// <summary>
-        /// Control PnlEditar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel PnlEditar;
-        
-        /// <summary>
-        /// Control LblRutPersona.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblRutPersona;
-        
-        /// <summary>
-        /// Control DdlRutPersona.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DdlRutPersona;
-        
-        /// <summary>
-        /// Control LBlSucursal.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LBlSucursal;
-        
-        /// <summary>
-        /// Control DropDownList1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.DropDownList DdlSucursal;
         
         /// <summary>
         /// Control LblDepartamento.
@@ -175,15 +130,6 @@ namespace CapaWeb {
         protected global::System.Web.UI.WebControls.DropDownList DdlCargo;
         
         /// <summary>
-        /// Control BtnEditar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnEditar;
-        
-        /// <summary>
         /// Control BtnEliminar.
         /// </summary>
         /// <remarks>
@@ -193,22 +139,13 @@ namespace CapaWeb {
         protected global::System.Web.UI.WebControls.Button BtnEliminar;
         
         /// <summary>
-        /// Control BtnCambiar.
+        /// Control BtnEditar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnCambiar;
-        
-        /// <summary>
-        /// Control OdsPersona.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ObjectDataSource OdsPersona;
+        protected global::System.Web.UI.WebControls.Button BtnEditar;
         
         /// <summary>
         /// Control OdsSucursal.

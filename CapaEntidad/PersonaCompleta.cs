@@ -13,7 +13,7 @@ namespace CapaEntidad
         public string ApPaterno { get; set; }
         public string ApMaterno { get; set; }
         public DateTime? FechaNacimiento { get; set; }
-        public string Sexo { get; set; }
+        public int? Sexo { get; set; }
         public string Telefono { get; set; }
         public string Email { get; set; }
         public string Direccion { get; set; }
@@ -23,7 +23,7 @@ namespace CapaEntidad
 
         public PersonaCompleta()
         {
-            this.Rut = this.Nombres = this.ApPaterno = this.ApMaterno = this.Sexo = this.Telefono = this.Email = this.Direccion = this.Comuna = this.Region = this.Pais = string.Empty;
+            this.Rut = this.Nombres = this.ApPaterno = this.ApMaterno = this.Telefono = this.Email = this.Direccion = this.Comuna = this.Region = this.Pais = string.Empty;
 
         }
     }
