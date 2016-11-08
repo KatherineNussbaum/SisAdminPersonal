@@ -11,5 +11,6 @@ namespace CapaInterface
     public interface ISucursalCompletaBO
     {
         IList<SucursalCompleta> Listar();
+        IList<SucursalCompleta> ListarPorEmpresa(string rut);
     }
 }

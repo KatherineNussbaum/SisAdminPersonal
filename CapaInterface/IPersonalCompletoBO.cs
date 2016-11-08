@@ -11,5 +11,6 @@ namespace CapaInterface
     {
         IList<PersonalCompleto> ListarPersonal();
         PersonalCompleto BuscarPersonal(int id);
+        IList<PersonalCompleto> ListarPersonalPorSucursal(string sucursal);
     }
 }

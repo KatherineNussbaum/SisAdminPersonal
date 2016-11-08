@@ -22,6 +22,15 @@ namespace CapaWeb {
         protected global::System.Web.UI.WebControls.ObjectDataSource OdsSucursales;
         
         /// <summary>
+        /// Control ObsPersonal.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ObjectDataSource ObsPersonal;
+        
+        /// <summary>
         /// Control GridSucursales.
         /// </summary>
         /// <remarks>
@@ -29,5 +38,14 @@ namespace CapaWeb {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridSucursales;
+        
+        /// <summary>
+        /// Control DetailsView1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DetailsView DetailsView1;
     }
 }

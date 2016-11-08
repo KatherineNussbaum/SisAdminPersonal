@@ -11,7 +11,8 @@
     <asp:Panel ID="PnlPersonas" runat="server" CssClass="auto-style1" Height="288px" Width="1011px">
 
         <asp:ObjectDataSource ID="OdsPersona" runat="server" SelectMethod="ListarPersonaCompleta" TypeName="CapaNegocio.PersonaCompletaBO"></asp:ObjectDataSource>
-        <asp:GridView ID="GridPersona" runat="server" AllowPaging="True" DataSourceID="OdsPersona" Width="1010px" CssClass="auto-style1"></asp:GridView>
+        <asp:GridView ID="GridPersona" runat="server" AllowPaging="True" DataSourceID="OdsPersona" Width="1010px" CssClass="auto-style1" DataKeyNames="Rut"></asp:GridView>
+        <br />
         <br />
 
     </asp:Panel>
