@@ -39,5 +39,6 @@
       <siteMapNode url="ListarPersonal.aspx" title="Listar Personal" />
 
     </siteMapNode>
+    <siteMapNode url="Contacto.aspx" title="Contacto"  description=""/>
   </siteMapNode>
 </siteMap>

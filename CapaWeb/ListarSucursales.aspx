@@ -4,5 +4,5 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:ObjectDataSource ID="OdsSucursales" runat="server" SelectMethod="Listar" TypeName="CapaNegocio.SucursalCompletaBO"></asp:ObjectDataSource>
    
-    <asp:GridView ID="GridSucursales" runat="server" AllowPaging="True" DataSourceID="OdsSucursales"></asp:GridView>
+    <asp:GridView ID="GridSucursales" runat="server" AllowPaging="True" DataSourceID="OdsSucursales" Width="916px"></asp:GridView>
      </asp:Content>

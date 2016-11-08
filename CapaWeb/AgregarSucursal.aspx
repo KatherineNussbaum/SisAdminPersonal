@@ -1,43 +1,108 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Template.Master" AutoEventWireup="true" CodeBehind="AgregarSucursal.aspx.cs" Inherits="CapaWeb.AgregarSucursal" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .auto-style1 {
+            width: 108px;
+        }
+        .auto-style2 {
+            width: 219px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h2>Agregar Sucursal</h2>
     <asp:Label ID="LblMensaje" runat="server" Text="Label" Visible="false"></asp:Label>
     <br />
-    <asp:Panel ID="PnlAgregar" runat="server">
+    <table style="width:100%;">
+        <tr>
+            <td class="auto-style1">
         <asp:Label ID="LblNombre" runat="server" Text="Nombre"></asp:Label>
-        <asp:TextBox ID="TxtNombre" runat="server"></asp:TextBox>
+            </td>
+            <td class="auto-style2">
+        <asp:TextBox ID="TxtNombre" runat="server" Width="200px"></asp:TextBox>
+            </td>
+            <td>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TxtNombre" ErrorMessage="Nombre es requerido">*</asp:RequiredFieldValidator>
-        <br />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style1">
         <asp:Label ID="LblEmpresa" runat="server" Text="Empresa"></asp:Label>
-        <asp:DropDownList ID="DdlEmpresa" runat="server" DataSourceID="OdsEmpresa" DataTextField="Nombre" DataValueField="Rut">
+            </td>
+            <td class="auto-style2">
+        <asp:DropDownList ID="DdlEmpresa" runat="server" DataSourceID="OdsEmpresa" DataTextField="Nombre" DataValueField="Rut" Width="200px">
         </asp:DropDownList>
+            </td>
+            <td>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="DdlEmpresa" ErrorMessage="Empresa  es obligatorio">*</asp:RequiredFieldValidator>
-        <br />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style1">
         <asp:Label ID="LblTipo" runat="server" Text="Tipo"></asp:Label>
-        <asp:TextBox ID="TxtTipo" runat="server"></asp:TextBox>
-        <br />
+            </td>
+            <td class="auto-style2">
+        <asp:TextBox ID="TxtTipo" runat="server" Width="200px"></asp:TextBox>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style1">
         <asp:Label ID="LblTelefono" runat="server" Text="Telefono"></asp:Label>
-        <asp:TextBox ID="TxtTelefono" runat="server"></asp:TextBox>
-        <br />
+            </td>
+            <td class="auto-style2">
+        <asp:TextBox ID="TxtTelefono" runat="server" Width="200px"></asp:TextBox>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style1">
         <asp:Label ID="LblDireccion" runat="server" Text="Dirección"></asp:Label>
-        <asp:TextBox ID="TxtDireccion" runat="server"></asp:TextBox>
-        <br />
+            </td>
+            <td class="auto-style2">
+        <asp:TextBox ID="TxtDireccion" runat="server" Width="200px"></asp:TextBox>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style1">
         <asp:Label ID="LblPais" runat="server" Text="Pais"></asp:Label>
-        <asp:DropDownList ID="DdlPais" runat="server" DataSourceID="OdsPais" DataTextField="Pais1" DataValueField="Id">
+            </td>
+            <td class="auto-style2">
+        <asp:DropDownList ID="DdlPais" runat="server" DataSourceID="OdsPais" DataTextField="Pais1" DataValueField="Id" Width="200px">
         </asp:DropDownList>
-        <br />
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style1">
         <asp:Label ID="LblRegion" runat="server" Text="Región"></asp:Label>
-        <asp:DropDownList ID="DdlRegion" runat="server" AutoPostBack="True" DataSourceID="OdsRegion" DataTextField="Region1" DataValueField="Id">
+            </td>
+            <td class="auto-style2">
+        <asp:DropDownList ID="DdlRegion" runat="server" AutoPostBack="True" DataSourceID="OdsRegion" DataTextField="Region1" DataValueField="Id" Width="200px">
         </asp:DropDownList>
-        <br />
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style1">
         <asp:Label ID="LblComuna" runat="server" Text="Comuna"></asp:Label>
-        <asp:DropDownList ID="DdlComuna" runat="server" AutoPostBack="True" DataSourceID="OdsComuna" DataTextField="Comuna1" DataValueField="Id">
+            </td>
+            <td class="auto-style2">
+        <asp:DropDownList ID="DdlComuna" runat="server" AutoPostBack="True" DataSourceID="OdsComuna" DataTextField="Comuna1" DataValueField="Id" Width="200px">
         </asp:DropDownList>
-        <br />
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style1">&nbsp;</td>
+            <td class="auto-style2">
         <asp:Button ID="BtnGuradar" runat="server" Text="Guardar" OnClick="BtnGuradar_Click" />
-        <br />
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <asp:Panel ID="PnlAgregar" runat="server">
         <asp:ObjectDataSource ID="OdsPais" runat="server" SelectMethod="ListarPais" TypeName="CapaNegocio.PaisBO"></asp:ObjectDataSource>
         <asp:ObjectDataSource ID="OdsRegion" runat="server" SelectMethod="ListarRegionPais" TypeName="CapaNegocio.RegionBO">
             <SelectParameters>
@@ -49,9 +114,7 @@
                 <asp:ControlParameter ControlID="DdlRegion" Name="regionId" PropertyName="SelectedValue" Type="Int32" />
             </SelectParameters>
         </asp:ObjectDataSource>
-        <br />
         <asp:ObjectDataSource ID="OdsEmpresa" runat="server" SelectMethod="ListarEmpresa" TypeName="CapaNegocio.EmpresaBO"></asp:ObjectDataSource>
-        <br />
         <asp:ValidationSummary ID="ValidationSummary1" runat="server" ShowMessageBox="True" ShowSummary="False" />
     </asp:Panel>
 </asp:Content>

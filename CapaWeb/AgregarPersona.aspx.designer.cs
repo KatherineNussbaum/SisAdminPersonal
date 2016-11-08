@@ -274,6 +274,15 @@ namespace CapaWeb {
         protected global::System.Web.UI.WebControls.DropDownList DdlComuna;
         
         /// <summary>
+        /// Control BtnGuardar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnGuardar;
+        
+        /// <summary>
         /// Control OdsPais.
         /// </summary>
         /// <remarks>
@@ -308,14 +317,5 @@ namespace CapaWeb {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ValidationSummary ValSum;
-        
-        /// <summary>
-        /// Control BtnGuardar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnGuardar;
     }
 }
