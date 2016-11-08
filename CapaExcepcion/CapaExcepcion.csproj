@@ -45,7 +45,9 @@
     <Compile Include="DepartamentoException.cs" />
     <Compile Include="EmpresaException.cs" />
     <Compile Include="PaisException.cs" />
+    <Compile Include="PersonaCompletaException.cs" />
     <Compile Include="PersonaException.cs" />
+    <Compile Include="PersonalCompletoException.cs" />
     <Compile Include="PersonalException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SucursalCompletaException.cs" />

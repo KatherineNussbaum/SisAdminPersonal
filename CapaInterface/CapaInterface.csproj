@@ -47,7 +47,9 @@
     <Compile Include="IEmpresaBO.cs" />
     <Compile Include="IPaisBO.cs" />
     <Compile Include="IPersonaBO.cs" />
+    <Compile Include="IPersonaCompletaBO.cs" />
     <Compile Include="IPersonalBO.cs" />
+    <Compile Include="IPersonalCompletoBO.cs" />
     <Compile Include="IRegionBO.cs" />
     <Compile Include="ISucursalBO.cs" />
     <Compile Include="ISucursalCompletaBO.cs" />

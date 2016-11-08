@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PersonaCompleta.cs" />
+    <Compile Include="PersonalCompleto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SucursalCompleta.cs" />
   </ItemGroup>

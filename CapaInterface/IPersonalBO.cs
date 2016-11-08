@@ -12,7 +12,7 @@ namespace CapaInterface
     {
         bool AgregarPersonal(string personaRut, int sucursalId, int cargoId, int departamentoId);
         bool EliminarPersonal(int id);
-        bool ModificarPersonal(int id, string personaRut, int sucursalId, int cargoId, int departamentoId);
+        bool ModificarPersonal(int id, string personaRut, int sucursalId, int departamentoId, int cargoId);
         Personal BuscarPersonal(int id);
         Personal BuscarPersonal(string personaRut);
         bool VerificarPersonal(int id);
