@@ -8,6 +8,7 @@ namespace CapaEntidad
 {
     public class SucursalCompleta
     {
+        #region Parámetros
         public int Id { get; set; }
         public string Nombre { get; set; }
         public string EmpresaRut { get; set; }
@@ -18,11 +19,13 @@ namespace CapaEntidad
         public string Comuna { get; set; }
         public string Region { get; set; }
         public string Pais { get; set; }
-
+        #endregion
+        #region Construtor
         public SucursalCompleta()
         {
             this.Id = 0;
             this.Nombre = this.EmpresaRut = this.NombreEmpresa = this.Tipo = this.Telefono = this.Direccion = this.Comuna = this.Region = this.Region = this.Pais = string.Empty;
         }
+        #endregion
     }
 }

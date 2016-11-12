@@ -12,12 +12,23 @@ namespace CapaNegocio
 {
     public class SucursalCompletaBO : ISucursalCompletaBO
     {
+        #region Variables
         private SistemaPersonalEntities _objContext;
+        #endregion
+        #region Constructor
+        /// <summary>
+        /// Constructor de SucursalCompletaBO
+        /// </summary>
         public SucursalCompletaBO()
         {
             this._objContext = new SistemaPersonalEntities();
         }
-
+        #endregion
+        #region Métodos
+        /// <summary>
+        /// Método que lista todas las sucursales registradas
+        /// </summary>
+        /// <returns></returns>
         public IList<SucursalCompleta> Listar()
         {
             IList<SucursalCompleta> sucursales = (from s in _objContext.Sucursal
@@ -46,6 +57,12 @@ namespace CapaNegocio
 
             return sucursales;
         }
+
+        /// <summary>
+        /// Método que lista las sucursales según el rut empresa
+        /// </summary>
+        /// <param name="rut"></param>
+        /// <returns></returns>
         public IList<SucursalCompleta> ListarPorEmpresa(string rut)
         {
             List<SucursalCompleta> sucursales = (from s in _objContext.Sucursal
@@ -75,5 +92,6 @@ namespace CapaNegocio
 
             return sucursales;
         }
+        #endregion
     }
 }

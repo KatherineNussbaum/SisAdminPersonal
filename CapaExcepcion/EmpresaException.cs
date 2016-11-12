@@ -8,6 +8,10 @@ namespace CapaExcepcion
 {
     public class EmpresaException : Exception
     {
+        /// <summary>
+        /// Constructor EmpresaException
+        /// </summary>
+        /// <param name="mensaje"></param>
         public EmpresaException(string mensaje) : base(mensaje)
         {
 

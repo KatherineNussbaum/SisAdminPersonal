@@ -10,7 +10,9 @@ namespace CapaInterface
 {
     public interface ISucursalCompletaBO
     {
+        #region Métodos
         IList<SucursalCompleta> Listar();
         IList<SucursalCompleta> ListarPorEmpresa(string rut);
+        #endregion
     }
 }

@@ -8,6 +8,10 @@ namespace CapaExcepcion
 {
     public class SucursalException : Exception
     {
+        /// <summary>
+        /// Constructor SucursalException
+        /// </summary>
+        /// <param name="mensaje"></param>
         public SucursalException(string mensaje) : base(mensaje)
         {
 

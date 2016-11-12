@@ -10,13 +10,24 @@ namespace CapaNegocio
 {
     public class CargoBO : ICargoBO
     {
+        #region Variables
         private SistemaPersonalEntities _objContext;
-
+        #endregion
+        #region Métodos
+        
+        /// <summary>
+        /// Constructor CargoBO
+        /// </summary>
         public CargoBO()
         {
             this._objContext = new SistemaPersonalEntities();
         }
-
+        
+        /// <summary>
+        /// Método que agrega cargo
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <returns></returns>
         public bool AgregarCargo(string nombre)
         {
             if(string.IsNullOrEmpty(nombre) || string.IsNullOrWhiteSpace(nombre))
@@ -34,17 +45,32 @@ namespace CapaNegocio
             }
             return false;
         }
-
+        
+        /// <summary>
+        /// Método que busca cargo por nombre
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <returns></returns>
         public Cargo BuscarCargo(string nombre)
         {
-            return this._objContext.Cargo.FirstOrDefault(c => c.Cargo1 == nombre);
+            return this._objContext.Cargo.FirstOrDefault(c => c.Cargo1.ToUpper() == nombre.ToUpper());
         }
 
+        /// <summary>
+        /// Método que busca Cargo por id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public Cargo BuscarCargo(int id)
         {
             return this._objContext.Cargo.FirstOrDefault(c => c.Id == id);
         }
 
+        /// <summary>
+        /// Método que elimina cargo por id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public bool EliminarCargo(int id)
         {
             if(id <= 0)
@@ -60,11 +86,21 @@ namespace CapaNegocio
             return false;
         }
 
+        /// <summary>
+        /// Método que lista todos los cargos registrados
+        /// </summary>
+        /// <returns></returns>
         public IList<Cargo> ListarCargo()
         {
             return this._objContext.Cargo.ToList();
         }
 
+        /// <summary>
+        /// Método para modificar nombre de cargo
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="nombre"></param>
+        /// <returns></returns>
         public bool ModificarCargo(int id, string nombre)
         {
             if(id <= 0)
@@ -84,14 +120,26 @@ namespace CapaNegocio
             return false;
         }
 
+        /// <summary>
+        /// Método para verificar si existe cargo busando por nombre
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <returns></returns>
         public bool VerificarCargo(string nombre)
         {
-            return this._objContext.Cargo.Any(c => c.Cargo1 == nombre);
+            return this._objContext.Cargo.Any(c => c.Cargo1.ToUpper() == nombre.ToUpper());
         }
 
+        /// <summary>
+        /// Método para verificar si existe cargo por id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public bool VerificarCargo(int id)
         {
             return this._objContext.Cargo.Any(c => c.Id == id);
         }
+
+        #endregion
     }
 }

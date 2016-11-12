@@ -10,8 +10,10 @@ namespace CapaInterface
 {
     public interface IRegionBO
     {
+        #region Métodos
         IList<Region> ListarRegion();
         IList<Region> ListarRegionPais(int pais);
         string BuscarRegion(int? regionId);
+        #endregion
     }
 }

@@ -8,6 +8,7 @@ namespace CapaEntidad
 {
     public class PersonaCompleta
     {
+        #region Parámetros
         public string Rut { get; set; }
         public string Nombres { get; set; }
         public string ApPaterno { get; set; }
@@ -20,11 +21,13 @@ namespace CapaEntidad
         public string Comuna { get; set; }
         public string Region { get; set; }
         public string Pais { get; set; }
-
+        #endregion
+        #region Constructor
         public PersonaCompleta()
         {
             this.Rut = this.Nombres = this.ApPaterno = this.ApMaterno = this.Telefono = this.Email = this.Direccion = this.Comuna = this.Region = this.Pais = string.Empty;
 
         }
+        #endregion
     }
 }

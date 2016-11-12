@@ -9,8 +9,10 @@ namespace CapaInterface
 {
     public interface IComunaBO
     {
+        #region Métodos
         IList<Comuna> ListarComuna();
         IList<Comuna> ListaComunaRegion(int regionId);
         string BuscarComuna(int? comunaId);
+        #endregion
     }
 }

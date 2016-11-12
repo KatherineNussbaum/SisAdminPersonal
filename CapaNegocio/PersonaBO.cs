@@ -16,12 +16,31 @@ namespace CapaNegocio
         private SistemaPersonalEntities _objContext;
         #endregion
         #region Constructor
+        /// <summary>
+        /// Constructor PersonaBO
+        /// </summary>
         public PersonaBO()
         {
             this._objContext = new SistemaPersonalEntities();
         }
         #endregion
         #region Métodos
+        /// <summary>
+        /// Metodo que agrega una persona 
+        /// </summary>
+        /// <param name="rut"></param>
+        /// <param name="nombres"></param>
+        /// <param name="apPaterno"></param>
+        /// <param name="apMaterno"></param>
+        /// <param name="fechaNacimiento"></param>
+        /// <param name="sexo"></param>
+        /// <param name="direccion"></param>
+        /// <param name="comuna"></param>
+        /// <param name="region"></param>
+        /// <param name="pais"></param>
+        /// <param name="telefono"></param>
+        /// <param name="email"></param>
+        /// <returns></returns>
         public bool AgregarPersona(string rut, string nombres, string apPaterno, string apMaterno, DateTime? fechaNacimiento, int sexo,
             string direccion, int comuna, int region, int pais, string telefono, string email)
         {
@@ -50,10 +69,22 @@ namespace CapaNegocio
             this._objContext.Persona.Add(persona);
             return this._objContext.SaveChanges() > 0;
         }
+
+        /// <summary>
+        /// Método que busca una persona seún su rut
+        /// </summary>
+        /// <param name="rut"></param>
+        /// <returns></returns>
         public Persona BuscarPersona(string rut)
         {
             return this._objContext.Persona.FirstOrDefault(p => p.Rut == rut);
         }
+
+        /// <summary>
+        /// Método que elimina una persona según su rut
+        /// </summary>
+        /// <param name="rut"></param>
+        /// <returns></returns>
         public bool EliminarPersona(string rut)
         {
             if(string.IsNullOrEmpty(rut) || string.IsNullOrWhiteSpace(rut))
@@ -68,12 +99,32 @@ namespace CapaNegocio
             this._objContext.Persona.Remove(persona);
             return this._objContext.SaveChanges() > 0;
         }
+
+        /// <summary>
+        /// Método que lista todas las personas registradas
+        /// </summary>
+        /// <returns></returns>
         public IList<Persona> ListarPersona()
         {
             return this._objContext.Persona.ToList();
         }
 
-
+        /// <summary>
+        /// Método que modifica una persona
+        /// </summary>
+        /// <param name="rut"></param>
+        /// <param name="nombres"></param>
+        /// <param name="apPaterno"></param>
+        /// <param name="apMaterno"></param>
+        /// <param name="fechaNacimiento"></param>
+        /// <param name="sexo"></param>
+        /// <param name="direccion"></param>
+        /// <param name="comuna"></param>
+        /// <param name="region"></param>
+        /// <param name="pais"></param>
+        /// <param name="telefono"></param>
+        /// <param name="email"></param>
+        /// <returns></returns>
         public bool ModificarPersona(string rut, string nombres, string apPaterno, string apMaterno, DateTime? fechaNacimiento, int sexo, 
             string direccion, int comuna, int region, int pais, string telefono, string email)
         {
@@ -99,6 +150,20 @@ namespace CapaNegocio
             persona.Email = email;
             return this._objContext.SaveChanges() > 0;
         }
+
+        /// <summary>
+        /// Método que modifica una persona
+        /// </summary>
+        /// <param name="rut"></param>
+        /// <param name="nombres"></param>
+        /// <param name="apPaterno"></param>
+        /// <param name="apMaterno"></param>
+        /// <param name="fechaNacimiento"></param>
+        /// <param name="sexo"></param>
+        /// <param name="direccion"></param>
+        /// <param name="telefono"></param>
+        /// <param name="email"></param>
+        /// <returns></returns>
         public bool ModificarPersona(string rut, string nombres, string apPaterno, string apMaterno, DateTime? fechaNacimiento, 
             int sexo, string direccion, string telefono, string email)
         {
@@ -121,10 +186,21 @@ namespace CapaNegocio
             persona.Email = email;
             return this._objContext.SaveChanges() > 0;
         }
+
+        /// <summary>
+        /// Métoo que verifica la existencia de un registro de persona según su rut
+        /// </summary>
+        /// <param name="rut"></param>
+        /// <returns></returns>
         public bool VerificarPersona(string rut)
         {
             return this._objContext.Persona.Any(p => p.Rut == rut);
         }
+
+        /// <summary>
+        /// Metodo que verifica el llenado de campo rut
+        /// </summary>
+        /// <param name="rut"></param>
         protected void IngresoRut(string rut)
         {
             if (string.IsNullOrEmpty(rut) || string.IsNullOrWhiteSpace(rut))
@@ -132,6 +208,11 @@ namespace CapaNegocio
                 throw new PersonaException("Error: Debe ingresar un rut");
             }
         }
+
+        /// <summary>
+        /// Método que verifica el llenado del campo nombres
+        /// </summary>
+        /// <param name="nombres"></param>
         protected void IngresoNombres(string nombres)
         {
             if (string.IsNullOrEmpty(nombres) || string.IsNullOrWhiteSpace(nombres))
@@ -139,6 +220,11 @@ namespace CapaNegocio
                 throw new PersonaException("Error: Debe ingresar nombres");
             }
         }
+
+        /// <summary>
+        /// Método que verifica el llenado de campo apellido
+        /// </summary>
+        /// <param name="apPaterno"></param>
         protected void IngresoApPaterno(string apPaterno)
         {
             if (string.IsNullOrEmpty(apPaterno) || string.IsNullOrWhiteSpace(apPaterno))

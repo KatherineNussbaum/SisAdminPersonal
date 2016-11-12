@@ -10,6 +10,7 @@ namespace CapaInterface
 {
     public interface ICargoBO
     {
+        #region Métodos
         bool AgregarCargo(string nombre);
         bool EliminarCargo(int id);
         bool ModificarCargo(int id, string nombre);
@@ -18,5 +19,6 @@ namespace CapaInterface
         bool VerificarCargo(int id);
         bool VerificarCargo(string nombre);
         IList<Cargo> ListarCargo();
+        #endregion
     }
 }

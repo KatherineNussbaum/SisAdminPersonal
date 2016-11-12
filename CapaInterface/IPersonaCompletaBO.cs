@@ -11,6 +11,8 @@ namespace CapaInterface
 {
     public interface IPersonaCompletaBO
     {
+        #region Métodos
         IList<PersonaCompleta> ListarPersonaCompleta();
+        #endregion
     }
 }
