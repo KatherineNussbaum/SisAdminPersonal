@@ -9,6 +9,7 @@ namespace CapaInterface
 {
     public interface IDepartamentoBO
     {
+        #region Métodos
         bool AgregarDepartamento(string nombre);
         bool EliminarDepartamento(int id);
         bool ModificarDepartamento(int id, string nombre);
@@ -17,5 +18,6 @@ namespace CapaInterface
         bool VerificarDepartameto(string nombre);
         bool VerificarDepartameto(int id);
         IList<Departamento> ListarDepartamento();
+        #endregion
     }
 }

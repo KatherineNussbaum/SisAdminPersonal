@@ -17,6 +17,9 @@ namespace CapaNegocio
         #endregion
 
         #region Constructor
+        /// <summary>
+        /// Constructor EmpresaBO
+        /// </summary>
         public EmpresaBO()
         {
             this._objContext = new SistemaPersonalEntities();
@@ -24,6 +27,13 @@ namespace CapaNegocio
         #endregion
 
         #region Métodos
+        /// <summary>
+        /// Método que agrega una empresa
+        /// </summary>
+        /// <param name="rut"></param>
+        /// <param name="nombre"></param>
+        /// <param name="razonSocial"></param>
+        /// <returns></returns>
         public bool AgregarEmpresa(string rut, string nombre, string razonSocial)
         {
             if(string.IsNullOrEmpty(rut) || string.IsNullOrWhiteSpace(rut))
@@ -48,6 +58,12 @@ namespace CapaNegocio
             }
             return false;
         }
+
+        /// <summary>
+        /// Método que elimina una empresa según su rut
+        /// </summary>
+        /// <param name="rut"></param>
+        /// <returns></returns>
         public bool EliminarEmpresa(string rut)
         {
             if(string.IsNullOrEmpty(rut) || string.IsNullOrWhiteSpace(rut))
@@ -62,10 +78,24 @@ namespace CapaNegocio
             }
             return false;
         }
+
+        /// <summary>
+        /// Método que busca una empresa según su rut
+        /// </summary>
+        /// <param name="rut"></param>
+        /// <returns></returns>
         public Empresa BuscarEmpresa(string rut)
         {
             return this._objContext.Empresa.FirstOrDefault(e => e.Rut == rut);
         }
+
+        /// <summary>
+        /// Método que modifica una empresa
+        /// </summary>
+        /// <param name="rut"></param>
+        /// <param name="nombre"></param>
+        /// <param name="razonSocial"></param>
+        /// <returns></returns>
         public bool ModificarEmpresa(string rut, string nombre, string razonSocial)
         {
             if(string.IsNullOrEmpty(rut) || string.IsNullOrWhiteSpace(rut))
@@ -89,10 +119,21 @@ namespace CapaNegocio
             }
             return false;
         }
+
+        /// <summary>
+        /// Método que lista todas las empresas registradas
+        /// </summary>
+        /// <returns></returns>
         public IList<Empresa> ListarEmpresa()
         {
             return this._objContext.Empresa.ToList();
         }
+
+        /// <summary>
+        /// Método que verifica la existencia de registro de empresa según rut
+        /// </summary>
+        /// <param name="rut"></param>
+        /// <returns></returns>
         public bool VerificarEmpresa(string rut)
         {
             return this._objContext.Empresa.Any(e => e.Rut == rut);

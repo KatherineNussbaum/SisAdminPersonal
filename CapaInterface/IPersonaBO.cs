@@ -9,6 +9,7 @@ namespace CapaInterface
 {
     public interface IPersonaBO
     {
+        #region Métodos
         bool AgregarPersona(string rut, string nombres, string apPaterno, string apMaterno, DateTime? fechaNacimiento, int sexo, string direccion, int comuna, int region, int pais, string telefono, string email);
         bool EliminarPersona(string rut);
         bool ModificarPersona(string rut, string nombres, string apPaterno, string apMaterno, DateTime? fechaNacimiento, int sexo, string direccion, int comuna, int region, int pais, string telefono, string email);
@@ -16,5 +17,6 @@ namespace CapaInterface
         Persona BuscarPersona(string rut);
         bool VerificarPersona(string rut);
         IList<Persona> ListarPersona();
+        #endregion
     }
 }

@@ -10,6 +10,7 @@ namespace CapaInterface
 {
     public interface ISucursalBO
     {
+        #region Métodos
         bool AgregarSucursal(string nombre, string empresaRut, string tipo, string direccion, int comuna, int region, int pais, string telefono);
         bool EliminarSucursal(int id);
         bool ModificarSucursal(int id, string nombre, string empresaRut, string tipo, string direccion, int comuna, int region, int pais, string telefono);
@@ -20,5 +21,6 @@ namespace CapaInterface
         bool VerificarSucursal(string nombre);
         bool VerificarSucursalRut(string rut);
         IList<Sucursal> ListarSucursal();
+        #endregion
     }
 }

@@ -9,9 +9,10 @@ namespace CapaInterface
 {
     public interface IPaisBO
     {
+        #region Métodos
         bool VerificarPais(int id);
         IList<Pais> ListarPais();
         string BuscarPais(int? paisId);
-
+        #endregion
     }
 }

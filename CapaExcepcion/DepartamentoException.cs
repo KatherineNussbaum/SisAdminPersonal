@@ -8,6 +8,10 @@ namespace CapaExcepcion
 {
     public class DepartamentoException : Exception
     {
+        /// <summary>
+        /// Constructor DepartamentoException
+        /// </summary>
+        /// <param name="mensaje"></param>
         public DepartamentoException(string mensaje) : base(mensaje)
         {
 

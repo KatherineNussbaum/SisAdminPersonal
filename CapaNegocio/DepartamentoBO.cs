@@ -16,12 +16,20 @@ namespace CapaNegocio
         private SistemaPersonalEntities _objContext;
         #endregion
         #region Constructor
+        /// <summary>
+        /// Constructor DepartamentoBO
+        /// </summary>
         public DepartamentoBO()
         {
             this._objContext = new SistemaPersonalEntities();
         }
         #endregion
         #region Métodos
+        /// <summary>
+        /// Método que agregega nuevo departamento
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <returns></returns>
         public bool AgregarDepartamento(string nombre)
         {
             if(string.IsNullOrEmpty(nombre) || string.IsNullOrWhiteSpace(nombre))
@@ -40,14 +48,32 @@ namespace CapaNegocio
             }
             return false;
         }
+
+        /// <summary>
+        /// Método que Busca un departamento por su id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public Departamento BuscarDepartamento(int id)
         {
             return this._objContext.Departamento.FirstOrDefault(d => d.Id == id);
         }
+
+        /// <summary>
+        /// Método que busca un departamento según su nombre
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <returns></returns>
         public Departamento BuscarDepartamento(string nombre)
         {
             return this._objContext.Departamento.FirstOrDefault(d => d.Departamento1 == nombre);
         }
+
+        /// <summary>
+        /// Método que elimina un departamento segpu el id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public bool EliminarDepartamento(int id)
         {
             if(id <= 0)
@@ -62,10 +88,22 @@ namespace CapaNegocio
             }
             return false;
         }
+
+        /// <summary>
+        /// Método que lista todos los departamentos registrados
+        /// </summary>
+        /// <returns></returns>
         public IList<Departamento> ListarDepartamento()
         {
             return this._objContext.Departamento.ToList();
         }
+
+        /// <summary>
+        /// Método que modifica un departamento segun su id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="nombre"></param>
+        /// <returns></returns>
         public bool ModificarDepartamento(int id, string nombre)
         {
             if(string.IsNullOrEmpty(nombre) || string.IsNullOrWhiteSpace(nombre))
@@ -85,10 +123,22 @@ namespace CapaNegocio
             }
             return false;
         }
+
+        /// <summary>
+        /// Método que verifica la existencia de un departamento según su nombre
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <returns></returns>
         public bool VerificarDepartameto(string nombre)
         {
             return this._objContext.Departamento.Any(d => d.Departamento1 == nombre);
         }
+
+        /// <summary>
+        /// Método que verifica la existencia de un departamento según su id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public bool VerificarDepartameto(int id)
         {
             return this._objContext.Departamento.Any(d => d.Id == id);

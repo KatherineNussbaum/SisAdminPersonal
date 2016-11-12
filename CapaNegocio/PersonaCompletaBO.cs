@@ -11,12 +11,22 @@ namespace CapaNegocio
 {
     public class PersonaCompletaBO : IPersonaCompletaBO
     {
+        #region Variables
         private SistemaPersonalEntities _objContext;
+        #endregion
+
+        #region Constructor
         public PersonaCompletaBO()
         {
             this._objContext = new SistemaPersonalEntities();
         }
+        #endregion
 
+        #region Métodos
+        /// <summary>
+        /// Método que lista todas las comunas
+        /// </summary>
+        /// <returns></returns>
         public IList<PersonaCompleta> ListarPersonaCompleta()
         {
             IList<PersonaCompleta> personas = (from p in _objContext.Persona
@@ -44,5 +54,6 @@ namespace CapaNegocio
                                                ).ToList();
             return personas;
         }
+        #endregion
     }
 }

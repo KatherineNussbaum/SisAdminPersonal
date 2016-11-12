@@ -8,6 +8,10 @@ namespace CapaExcepcion
 {
     public class PersonaException : Exception
     {
+        /// <summary>
+        /// Constructor PersonaException
+        /// </summary>
+        /// <param name="mensaje"></param>
         public PersonaException(string mensaje) : base(mensaje)
         {
 

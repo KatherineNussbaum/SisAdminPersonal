@@ -9,8 +9,10 @@ namespace CapaInterface
 {
     public interface IPersonalCompletoBO
     {
+        #region Métodos
         IList<PersonalCompleto> ListarPersonal();
         PersonalCompleto BuscarPersonal(int id);
         IList<PersonalCompleto> ListarPersonalPorSucursal(string sucursal);
+        #endregion
     }
 }
